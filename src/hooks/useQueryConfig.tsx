@@ -7,7 +7,7 @@ import { ProductListConfig } from 'src/types/product.type';
 export type QueryConfig = {
     [key in keyof ProductListConfig]: string;
 };
-
+//fix code useQueryConfig
 function useQueryConfig() {
     const queryParams: QueryConfig = useQueryParams();
     const queryConfig: QueryConfig = omitBy(
