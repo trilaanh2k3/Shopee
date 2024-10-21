@@ -4,5 +4,5 @@ function useQueryParams() {
     const [searchParams] = useSearchParams();
     return Object.fromEntries([...searchParams]);
 }
-
+//fix code useQuery
 export default useQueryParams;
