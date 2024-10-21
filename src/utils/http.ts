@@ -14,7 +14,7 @@ import {
  * vì dùng attr trong class thì nó sẽ lưu trên ram, còn localStorage thì lưu trên disk
  * đọc từ ram sẽ luôn nhanh hơn đọc từ disk
  */
-
+// add http
 class Http {
     instance: AxiosInstance;
     private accessToken: string;
