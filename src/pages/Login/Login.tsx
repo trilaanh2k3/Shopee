@@ -55,11 +55,6 @@ export default function Login() {
       }
     })
   })
-
-  /// login page
-
-  // Duogn code o day
-
   return (
     <div className='bg-orange'>
       <Helmet>
