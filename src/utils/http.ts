@@ -32,7 +32,7 @@ export class Http {
     this.refreshToken = getRefreshTokenFromLS()
     this.refreshTokenRequest = null
     this.instance = axios.create({
-      baseURL: config.baseUrl,
+      baseURL: config.baseURL,
       timeout: 10000,
       headers: {
         'Content-Type': 'application/json',
