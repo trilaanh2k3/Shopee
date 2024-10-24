@@ -2,9 +2,9 @@ import { yupResolver } from '@hookform/resolvers/yup'
 import omit from 'lodash/omit'
 import { useForm } from 'react-hook-form'
 import useQueryConfig from './useQueryConfig'
-import { schema, Schema } from 'src/utils/rules'
+import { schema, Schema } from '../utils/rules'
 import { createSearchParams, useNavigate } from 'react-router-dom'
-import path from 'src/constants/path'
+import path from '../constants/path'
 
 type FormData = Pick<Schema, 'name'>
 
