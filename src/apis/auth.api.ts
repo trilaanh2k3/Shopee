@@ -7,6 +7,7 @@ export const URL_LOGOUT = 'logout'
 export const URL_REFRESH_TOKEN = 'refresh-access-token'
 
 const authApi = {
+  //test
   registerAccount(body: { email: string; password: string }) {
     return http.post<AuthResponse>(URL_REGISTER, body)
   },
